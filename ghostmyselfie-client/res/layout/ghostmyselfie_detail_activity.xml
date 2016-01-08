@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res/com.laishidua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".view.GhostMySelfieDetailActivity" >    
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="23dp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_thumbnail_placeholder" />
+    
+    <RatingBar
+        android:id="@+id/rbDetailRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:stepSize="0.1" />    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.01"
+        android:gravity="center_horizontal"
+        android:text="@string/settings_big_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+    <com.laishidua.view.ui.FloatingGenericButton
+       android:id="@+id/deleteRowItem"
+       android:layout_width="72dp"
+       android:layout_height="72dp" 
+       android:layout_gravity="bottom|end"
+       fab:fabDrawable="@drawable/ic_trashcan"
+       fab:fabColor="@color/theme_primary"/>           
+    
+</LinearLayout>    
+
+</ScrollView>

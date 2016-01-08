@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GhostMySelfie</string>
+    <string name="desc">GhostMySelfie Logo</string>
+    <string name="app_title">GhostMySelfie</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_authority">com.laishidua</string>
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="title_upload_selfie">Upload Selfie by </string>
+    <string name="title_selfie_actions">Selfie actions </string>
+    <string name="settings_selfie_text">Select the options you want for your Selfies.</string>
+    <string name="chk_ghost">Show a ghost in the Selfie.</string>
+    <string name="chk_gray">Apply gray filter.</string>
+    <string name="chk_blur">Apply blur filter.</string>
+    <string name="chk_dark">Apply dark filter.</string>
+    <string name="chk_activate_reminder">Enable reminder.</string>
+    <string name="settings_time_picker">Select a daily time to remind you to take a Selfie.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_user">Email</string>
+    <string name="login_pass">Password</string>
+    <string name="login_sign">Sign In!</string>
+    <string name="signup_sign">Sign Up!</string>
+    <string name="settings_big_text">Click on the stars to rate the Selfie, click on the thumbnail to see it. If you see a placeholder instead of a thumbnail, click it to download the selfie.</string>
+    <string name="delete_item">Delete this row item</string>
+    <string name="delete_item_text1">Row Item Successfully deleted.</string> 
+    <string name="delete_item_text2">Item Already Deleted.</string>  
+    <string name="delete_item_text3">Cannot delete this row item. You are not the owner of the Selfie.</string>   
+    
+</resources>
